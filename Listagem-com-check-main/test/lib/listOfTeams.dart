@@ -31,6 +31,7 @@ class _ListOfTeamsState extends State<ListOfTeams> {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 8.0, horizontal: 12.0),
       child: Container(
+        
         height: 100,
         color: Colors.white,
         child: Padding(

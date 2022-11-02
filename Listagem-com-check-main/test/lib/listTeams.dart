@@ -17,6 +17,11 @@ class _ListTeamsState extends State<ListTeams> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text("ESCOLHA SEU TIME"),
+        
+      ),
+      
       backgroundColor: Colors.grey[200],
       body: Padding(
         padding: const EdgeInsets.symmetric(vertical: 8.0, horizontal: 20),
